@@ -1,0 +1,3 @@
+ df = pd.read.csv(DATA_PATH)
+"print(""Data shape:"",df.shape)"
+print(df['Class'].value_counts(normalize=True))
